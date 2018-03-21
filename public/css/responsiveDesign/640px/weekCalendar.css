@@ -1,0 +1,31 @@
+@media only screen and (max-width: 640px) {
+	.dayGui {
+		min-width: 0;
+		min-width: 200px;
+	}
+
+	#featureCalendar .featureImg {
+		width: 100%;
+		top: 0;
+		transform: translateY(0);
+	}
+	#featureCalendar .featureImgBox {
+		width: 100%;
+	}
+
+	#featureCalendar .featureInfo {
+		width: 100%;
+	}
+
+	#featureCalendar .featureTitle {
+		font-size: 20px;
+	}
+
+	#featureCalendar .featureDescription {
+		font-size: 10px;
+	}
+
+	.userEvents .title {
+		font-size: 20px;
+	}
+}

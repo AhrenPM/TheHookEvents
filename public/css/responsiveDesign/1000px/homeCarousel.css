@@ -1,0 +1,86 @@
+@media only screen and (max-width: 1000px) {
+	ul.featureContainer {
+		top: 0;
+		margin-top: 0;
+	}
+
+	.homeCarousel {
+		width: 100%;
+		height: 100%;
+	}
+
+	li.featureItem {
+		position: relative;
+		opacity: 1;
+		z-index: initial;
+		overflow: initial;
+	}
+
+	.homeCarousel .featureImg {
+		min-height: 0;
+		transition: opacity 0.2s ease-in-out;
+	}
+
+	.carouselCenterBox {
+		position: absolute;
+		top: initial;
+		bottom: 0;
+		left: 0;
+		transform: translateX(0);
+		width: 100%;
+		display: flex;
+	}
+
+	.carouselCenterBox .summaryBox {
+		width: 50%;
+		text-align: left;
+		padding: 5px;
+	}
+
+	.carouselCenterBox .moreInfo {
+		right: 0;
+		left: initial;
+		transform: translateX(0);
+		width: 50%;
+		margin-top: 0;
+		padding: 10px 20px;
+		border-radius: 0px;
+		border: none;
+	}
+
+	button.left {
+		display: none;
+	}
+
+	button.right {
+		display: none
+	}	
+
+	.carouselDescription {
+		position: fixed;
+		height: 0px;
+		z-index: 15;
+	}
+
+	.carouselCenterBox .featureLocation {
+		display: none;
+	}
+
+	.carouselDescription .exit {
+		margin: 50px 10px;
+	}
+
+	.carouselDescription .infoContainer {
+		top: 40%;
+	}
+
+	ul.buttonList {
+		margin-top: 15px;
+	}
+
+	ul.buttonList li button {
+		height: 55px;
+		width: 55px;
+		font-size: 12px;
+	}
+}

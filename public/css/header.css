@@ -1,0 +1,72 @@
+.headerList ul {
+	list-style-type: none;
+	float: right;
+}
+
+.headerList li {
+	float: left;
+}
+
+.mcMasterPrompt {
+	font-size: 12px;
+	font-weight: 600;
+	color: white;
+	line-height: 40px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+a.headerItem {
+	background: linear-gradient(to left, rgba(0,0,0,0) 50%, white 50%);
+	background-size: 198% 100%;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	border-left: 1px solid white;
+	transition: 0.2s;
+}
+a.headerItem:focus {
+	text-decoration: none;
+	color: #333333;
+	background-position: left bottom;
+}
+
+li:hover a.headerItem{
+	text-decoration: none;
+	color: #333333;
+	background-position: left bottom;
+}
+
+.headerContainer {
+	position: relative;
+	height: 50px;
+	background: #ff7900;
+	padding: 0 100px;
+	z-index: 100;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+}
+
+.headerLogo {
+	height: 50px;
+	padding: 3px 0;
+}
+
+.headerItem {
+	color: white;
+	font-size: 15px;
+	line-height: 50px;
+	margin: 0 10px;
+	padding: 5px 20px;
+}
+
+.dropdown {
+	display: none;
+}
+
+.hide {
+	display: none;
+}

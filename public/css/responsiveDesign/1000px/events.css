@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1000px) {
+	.featureTitle {
+		font-size: 20px;
+	}
+
+	.featureLocation {
+		font-size: 10px;
+	}
+
+	.timeInfo {
+		font-size: 10px;
+	}
+
+	.featureDescription {
+		font-size: 10px;
+	}
+
+	.featurePrompt {
+		font-size: 10px;
+	}
+
+	.featureTimeLocal {
+		font-size: 10px;
+	}
+
+	.featureAdmission {
+		font-size: 10px;
+	}
+}

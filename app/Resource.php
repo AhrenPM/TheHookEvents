@@ -1,0 +1,12 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Resource extends Model
+{
+    public function concept() {
+    	return $this->belongsTo('App\Concept');
+    }
+}

@@ -1,0 +1,14 @@
+@media only screen and (max-width: 640px) {
+	.sectionTitle {
+		font-size: 25px;
+	}
+
+	button.bigButton {
+		font-size: 20px;
+		padding: 20px 20%;
+	}
+
+	.section {
+		padding: 4px;
+	}
+}

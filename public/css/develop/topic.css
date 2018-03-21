@@ -1,0 +1,571 @@
+#header {
+  display:flex;
+  list-style-type:none;
+  height:inherit;
+  padding-left:0px;
+}
+
+#header-bar {
+  height:50px;
+  background-color:#ff9700;
+  overflow:hidden;
+}
+
+.header-item {
+  line-height:50px;
+  color:white;
+  padding:0 10px;
+}
+
+.float-right {
+  float:right;
+}
+
+.float-left {
+  float:left;
+}
+
+#header-container {
+  margin:0 50px;
+}
+
+.part-overview {
+  margin:0;
+  list-style:none;
+  padding:0;
+  padding-right:20px;
+  border-left:15px solid #00cfff;
+  border-bottom:1px solid #ddd;
+}
+
+#part-header .number {
+  border-left:10px solid #333333;
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+ul {
+  list-style:none;
+  padding:0;
+}
+
+#part-header {
+  display:flex;
+  justify-content:space-between;
+}
+
+.section {
+  padding:10px 50px;
+  max-width: none;
+}
+
+.title {
+  font-size:35px;
+  line-height:40px;
+  padding:0 5px;
+  font-weight:600;
+}
+
+.tree {
+  padding:0 5px;
+}
+
+ul {
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+.button-list {
+  display:flex;
+}
+
+.btn-list {
+  position:relative;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.btn.btn-default.btn-primary {
+  background:#00cfff;
+  height:75px;
+  border-radius:0;
+  border-color:#00cfff;
+  text-shadow:none;
+}
+
+.btn.btn-default.btn-primary:hover {
+  background-color:#28b1d0;
+  border-color:#28b1d0;
+  cursor:pointer;
+}
+
+body {
+  background-color:#eee;
+}
+
+.btn.btn-default.custom {
+  background:none;
+  outline:none;
+  border:none;
+  text-shadow:none;
+  box-shadow:none;
+}
+
+.btn.btn-default.btn-text-bold {
+  padding:2px 5px;
+  font-weight:600;
+  color:#999;
+  border-right:2px solid #ddd;
+  border-radius:0;
+}
+
+.btn.btn-default.btn-text-bold.active {
+  color:#333;
+}
+
+.btn.btn-default.btn-text-bold:last-child {
+  border-right:0;
+}
+
+.btn.btn-default.btn-text-bold:hover {
+  color:#666;
+}
+
+.flex-section {
+  padding:10px 50px;
+  display:flex;
+  flex-wrap:nowrap;
+}
+
+.flex-item {
+  flex-grow:1;
+}
+
+.flex-item.columns-3 {
+  max-width: 30%;
+}
+
+.flex-item.horizontal {
+  margin: 0 10px;
+}
+
+#concept-overview {
+  width:600px;
+}
+
+p.user-list {
+  margin:5px;
+  font-size:12px;
+}
+
+.user-tag {
+  color:white;
+  background-color:#ffd18f;
+  padding:2px;
+  margin-right:5px;
+}
+
+.user-tag:hover {
+  background-color:#ff9700;
+  cursor:pointer;
+}
+
+.comment-box {
+  position:absolute;
+}
+
+@media (max-width:991px) {
+  .flex-section {
+    flex-wrap:wrap;
+  }
+}
+
+.concept-header {
+  display:flex;
+}
+
+p.concept-title {
+  font-size:20px;
+  font-weight:600;
+}
+
+.concept-header p {
+  margin:0;
+  margin-right:20px;
+}
+
+.btn.btn-default.custom.resource-enter {
+  background-color:#333;
+  text-shadow:none;
+  border-radius:0;
+  color:white;
+}
+
+.btn.btn-default.custom.resource-enter:active {
+  background:#333;
+}
+
+.btn.btn-default.custom.resource-enter:hover {
+  background-color:#444;
+}
+
+.carousel {
+  overflow-x: hidden;
+}
+
+.carousel .carousel-item {
+  height:200px;
+  padding-right:5px;
+  margin-right:2px;
+  border-right:2px solid #ddd;
+}
+
+.carousel-items {
+  position:relative;
+  padding:15px 55px;
+  left:0;
+  display:flex;
+  flex-wrap:nowrap;
+  min-height: 200px;
+  transition: 0.5s;
+}
+
+.carousel .empty-carousel {
+  position: relative;
+  top: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  font-weight: 600;
+  color: #ccc;
+}
+
+.carousel-image {
+  height:150px;
+  width: 266px;
+}
+
+.carousel-buttons {
+  position:absolute;
+  top:0;
+  width:100%;
+}
+
+.btn.btn-default.custom.carousel-button {
+  height:200px;
+  background:rgba(255,255,255,0.55);
+}
+
+.carousel-arrow {
+  width:40px;
+}
+
+.btn.btn-default.custom.carousel-button {
+  height:200px;
+  background-color:rgba(255,255,255,0.55);
+  transition:0.3s;
+  border-radius:0px;
+}
+
+.btn.btn-default.custom.carousel-button.button-left {
+  position:absolute;
+  left:0;
+}
+
+.btn.btn-default.custom.carousel-button.button-right {
+  position:absolute;
+  right:0;
+}
+
+.btn.btn-default.custom.carousel-button:hover {
+  background:rgba(51,51,51,0.55);
+}
+
+.carousel .flex-item.like {
+  max-width:50px;
+  height:50px;
+  background-color:#00cfff;
+  color:white;
+  text-align:center;
+}
+
+.item-description {
+  display:flex;
+}
+
+.carousel-item a:hover {
+  text-decoration:none;
+}
+
+.resource-type {
+  color:#333;
+  font-size:15px;
+  padding-left:5px;
+  height:20px;
+  padding:5px;
+  padding-right:20px;
+  border-bottom:1px solid #333;
+}
+
+.concept-type-icon {
+  height:20px;
+  margin-right:5px;
+}
+
+.resource-name {
+  display:block;
+  margin-top:5px;
+  line-height:22px;
+  font-size:16px;
+  color:#333;
+  font-weight:600;
+  padding:0 5px;
+}
+
+a .resource-name:hover {
+  text-decoration:underline;
+}
+
+.btn.btn-default.custom.like {
+  height:50px;
+  width:50px;
+  background-color:#00cfff;
+  color:white;
+  text-align:center;
+  padding:5px;
+}
+
+.like-num {
+  display:block;
+}
+
+.btn.btn-default.like.custom:active {
+  background-color:#0b94b4;
+}
+
+.concept-resources {
+  border-bottom:2px solid #ddd;
+  padding-bottom:20px;
+}
+
+.h1, h1 {
+  font-weight:600;
+  text-align:center;
+}
+
+.section-title-middle {
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+  padding:0 50px;
+  width:400px;
+  border-bottom:1px solid #999;
+}
+
+.btn.btn-default.custom.exercise {
+  background:#ffd18f;
+  color:white;
+  border-radius:0;
+  font-weight:600;
+  font-size:16px;
+  width:100%;
+  margin-bottom:5px;
+  word-wrap:break-word;
+  white-space:normal;
+}
+
+.btn.btn-default.custom.exercise:hover {
+  background:#ff9700;
+}
+
+.flex-item.exercises {
+  width:100px;
+  margin-right:10px;
+}
+
+.btn.btn-default.custom.exercise.active {
+  background:#ff9700;
+}
+
+.flex-item.goals {
+  border-left:20px solid #333;
+  width:200px;
+}
+
+.flex-item.instructions {
+  width:250px;
+  border-left:1px solid #999;
+  margin-left:30px;
+}
+
+.goals .btn.btn-default.custom.goal {
+  padding:2px 10px;
+  margin:5px 5px;
+  background:#ff9700;
+  color:white;
+  border-radius:0;
+}
+
+.btn.btn-default.custom.goal.active {
+  border-bottom:2px solid #333;
+}
+
+.btn.btn-default.custom.goal:active {
+  background-color:#ffad39;
+}
+
+.objective {
+  font-size:14px;
+  margin-left:5px;
+}
+
+.goals .image {
+  max-width:100%;
+  max-height: 200px;
+}
+
+.description p {
+  margin-left:5px;
+}
+
+.instructions .heading {
+  padding:5px;
+  font-size:20px;
+}
+
+.instructions .prompt, .goals .prompt, .exercises .prompt {
+  text-align:center;
+  font-size:40px;
+  color:#999;
+  margin-top:20px;
+}
+
+.instructions .step {
+  margin-bottom:5px;
+}
+
+.btn.btn-default.custom.exercise-create {
+  background:#999999;
+  color:white;
+  border-radius:0;
+  font-size:16px;
+  width:100%;
+  margin-bottom:5px;
+  word-wrap:break-word;
+  white-space:normal;
+}
+
+.btn.btn-default.custom.exercise-create:hover {
+  background-color:#666;
+}
+
+.title-middle {
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+  padding:0 50px;
+  width:400px;
+  border-bottom:1px solid #999;
+  width:200px;
+  text-align:center;
+}
+
+.tree-list-vertical {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.tree-head.horizontal {
+}
+
+.tree-head .statistics {
+  position:relative;
+  padding:10px 10px 0 10px;
+  width:100%;
+  height:75px;
+  opacity:0.6;
+}
+
+.tree-head {
+  position:relative;
+  min-height:135px;
+  text-align:center;
+  transition:0.2s;
+  width:100%;
+  color:white;
+  margin-bottom:10px;
+}
+
+.tree-head .resources {
+  text-align:left;
+  float:left;
+}
+
+.number {
+  font-size:30px;
+}
+
+.tree-head .type {
+}
+
+.number p {
+  margin:0;
+}
+
+.tree-head .projects {
+  text-align:right;
+  float:right;
+}
+
+.tree-head .name {
+  position:absolute;
+  bottom:5px;
+  font-size:24px;
+  line-height:27px;
+  width:100%;
+}
+
+.list-supported {
+  display:flex;
+  margin-left:5px;
+  font-size:12px;
+}
+
+.img-support {
+  height:30px;
+  border-radius:5px;
+  margin-left:10px;
+}
+
+.list-supported li {
+  position: relative;
+}
+
+.list-supported li p {
+  position: absolute;;
+  top: 100%;
+  left: 10px;
+  background: white;
+  padding: 0px 10px;
+  color: black;
+  display: none;
+}
+
+.list-supported li:hover p {
+  display: block;
+}
+
+.custom.back {
+  background: #666;
+  border-radius: 3px;
+  padding: 3px;
+}
+.custom.back:hover{
+  background: #888;
+}
+.custom.back img {
+  height: 40px;
+  width: 40px;
+}

@@ -1,0 +1,221 @@
+#chat-box-threads {
+  position:relative;
+  margin: 10px;
+  min-width:300px;
+  height:250px;
+  border:1px solid #999;
+  border-bottom:none;
+  background-color:white;
+  overflow:hidden;
+  display: block;
+}
+
+#chat-box-comments {
+  position:relative;
+  margin: 10px;
+  min-width:300px;
+  height:250px;
+  border:1px solid #999;
+  border-bottom:none;
+  background-color:white;
+  overflow:hidden;
+  display: none;
+}
+
+#chat-box-comments .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 45px;
+  width: 45px;
+  padding: 2px;
+  background: #666;
+  opacity: 0.3;
+  z-index: 3;
+}
+#chat-box-comments .back:hover {
+  opacity: 1;
+}
+
+#chat-box-comments .back img {
+  height: 30px;
+}
+
+#chat-box-threads .chat-item {
+  margin:5px 10px;
+  margin-bottom:2px;
+  padding-bottom:2px;
+  border-bottom:1px solid #00cfff;
+}
+
+#chat-box-comments .chat-item {
+  padding: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  margin-right: 20px;
+}
+
+#chat-box-comments .chat-item.owner {
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+#chat-box-comments .chat-item .msg {
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  background: #efefef;
+  max-width: 500px;
+  min-width: 50px;
+  padding: 5px;
+  border-bottom: 1px solid #ff9700;
+}
+
+#chat-box-comments .chat-item.owner .msg{
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 5px;
+  border-bottom: 1px solid #00cfff;
+}
+
+#chat-box-comments .chat-item .msg p {
+  margin-bottom: 4px;
+}
+
+#chat-box-comments .chat-item .msg div {
+  font-size: 10px;
+  color: #999999;
+}
+
+#chat-box-comments #chat-comments {
+  padding-top:40px;
+  padding-bottom:10px;
+  position:absolute;
+  top:0px;
+  width:100%;
+  height:210px;
+  bottom:50px;
+  overflow-y:scroll;
+  z-index:0;
+}
+
+#chat-box-comments .chat-gradient {
+  position:absolute;
+  top:0;
+  height:25px;
+  background:linear-gradient(to bottom, #eee,rgba(255,255,255,0));
+  z-index:2;
+  width:100%;
+}
+
+#chat-box-threads #chat-threads {
+  padding-top:5px;
+  padding-bottom:25px;
+  position:absolute;
+  top:40px;
+  width:100%;
+  height:210px;
+  bottom:50px;
+  overflow-y:scroll;
+  z-index:0;
+}
+
+#chat-box-threads .chat-item-active {
+  padding-left:2px;
+  border-left:2px solid rgb(12,222,12);
+}
+
+.btn.btn-default.chat-submit:hover {
+  background-color:#28b1d0;
+}
+
+#chat-box-threads .speech-bubble {
+  position:relative;
+  padding:5px;
+  margin-top:15px;
+  color:#666;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+
+#chat-box-threads .speech-bubble.top {
+  border:1px solid #ff9700;
+}
+
+#chat-box-threads .speech-bubble.top:after {
+  top:-15px;
+  right:50px;
+  bottom:auto;
+  left:auto;
+  border-width:0 15px 15px;
+  border-color:#ff9700 transparent;
+}
+
+#chat-box-threads .speech-bubble:after {
+  content:"";
+  position:absolute;
+  bottom:-15px;
+  left:50px;
+  border-width:15px 15px 0;
+  border-style:solid;
+  border-color:#ff9700 transparent;
+  border:1px solid #ff9700;
+  display:block;
+  width:0;
+}
+
+#chat-box-threads .chat-gradient {
+  position:absolute;
+  bottom:0;
+  height:25px;
+  background:linear-gradient(to top, #eee,rgba(255,255,255,0));
+  z-index:2;
+  width:100%;
+}
+
+#chat-box-threads .chat-enter {
+  background-color:#eee;
+  position:absolute;
+  top:0;
+  height:40px;
+  width:100%;
+  display:flex;
+}
+
+#chat-box-comments .chat-enter {
+  background-color:#eee;
+  position:absolute;
+  bottom:0;
+  height:40px;
+  width:100%;
+  display:flex;
+}
+
+.btn.btn-default.chat-submit {
+  background:#00cfff;
+  color:white;
+  text-shadow:none;
+  border-radius:0;
+  border:none;
+}
+
+.form-control.chat-text-input {
+  margin:3px;
+  border-radius:3px;
+  border:1px solid #ddd;
+}
+
+input.form-control:active, input.form-control:focus {
+  border:1px solid #696969;
+  box-shadow:none;
+}
+
+
+#chat-box-comments #chat-loader {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  height: 100px;
+}

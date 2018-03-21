@@ -1,0 +1,49 @@
+#allWeek {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul.featureList {
+	flex-grow: 1;
+	display: flex;
+	flex-flow: column wrap;
+	list-style-type: none;
+	max-width: 400px;
+	padding: 0;
+	margin: 5px;
+	border-left: 20px solid #ff7900;
+}
+
+ul.featureList li {
+	background: #333333;
+	padding: 0 5px;
+	margin-top: 5px;
+}
+ul.featureList li:first-child {
+	margin-top: 0;
+}
+
+ul.featureList li.specialEvent {
+	background: #00cfff;
+}
+
+ul.featureList .title {
+	float: right;
+	color: white;
+	font-size: 26px;
+}
+
+ul.featureList .date {
+	color: #dddddd;
+	font-size: 13px;
+}
+
+ul.featureList .time {
+	color: #dddddd;
+	font-size: 13px;
+}
+
+ul.featureList .dateTime {
+	float: left;
+	width: 100px;
+}

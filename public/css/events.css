@@ -1,0 +1,41 @@
+.featureTitle {
+	font-size: 40px;
+	font-weight: 600;
+	color: #333333;
+}
+
+.featureLocation {
+	font-size: 15px;
+	font-weight: 10;
+	color: #888888;
+}
+
+.timeInfo {
+	font-size: 20px;
+	font-weight: 10;
+	color: #333333;
+}
+
+.featureDescription {
+	color: #333333;
+	font-size: 15px;
+	font-weight: 10;
+}
+
+.featurePrompt {
+	color: #333333;
+	font-size: 12px;
+	font-weight: 10;
+}
+
+.featureTimeLocal {
+	font-size: 12px;
+	font-weight: 10;
+	color: #333333;
+}
+
+.featureAdmission {
+	font-size: 12px;
+	font-weight: 10;
+	color: #333333;
+}

@@ -1,0 +1,180 @@
+.dayGui {
+	background: #f7f7f7;
+	box-shadow: 0 0 5px 0px #cccccc;
+	min-width: 750px;
+	overflow: hidden;
+}
+
+/* feature Items */
+
+#featureCalendar .featureItems {
+	float: left;
+}
+
+#featureCalendar .featureItem {
+	margin: 5px;
+	padding: 5px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #888888;
+}
+
+#featureCalendar .featureImg {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 400px;
+	box-shadow: 0 0 5px 0px #999999;
+}
+
+#featureCalendar .featureImgBox {
+	width: 400px;
+	margin-right: 5px;
+}
+
+#featureCalendar .featureInfo {
+	list-style-type: none;
+	display: block;
+	border-left: 20px solid #ff7900;
+	width: 500px;
+}
+
+/* box borders and font */
+
+#featureCalendar .featurePrompt {
+	border-left: 5px solid #333333;
+	padding: 2px 5px;
+	margin-bottom: 5px;
+}
+
+#featureCalendar .featureTitle {
+	border-left: 12px solid #333333;
+	padding: 0px 5px;
+	margin-bottom: 5px;
+	font-size: 35px;
+}
+
+#featureCalendar .featureTimeLocal {
+	border-left: 5px solid #333333;
+	padding: 0px 5px;
+}
+
+#featureCalendar .featureAdmission {
+	border-left: 5px solid #333333;
+	padding: 0px 5px;
+	margin-bottom: 5px;
+}
+
+#featureCalendar .featureDescription {
+	border-left: 7px solid #333333;
+	padding: 2px 15px;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+#featureCalendar .featureLink {
+	border-left: 5px solid #333333;
+	padding: 0px 5px;
+	font-size: 14px;
+	margin-bottom: 5px;
+	overflow-wrap: break-word;
+	word-break: break-all;
+}
+
+#featureCalendar .featureLike {
+	color: white;
+	font-size: 20px;
+	background: #00cfff;
+	padding: 2px 10px;
+	margin-right: 10px;
+}
+#featureCalendar .featureLike:active{
+	background: #00bbe6;
+}
+
+#featureCalendar .featureGoing {
+	color: white;
+	font-size: 20px;
+	background: #ff7900;
+	padding: 2px 10px;
+	margin-right: 10px;
+}
+#featureCalendar .featureGoing:active{
+	background: #e66b00;
+}
+
+/* user events*/
+
+.userEvents {
+	width: 190px;
+	min-width: 200px;
+	float: left;
+	border-left: 20px solid #00cfff;
+}
+
+.userEvents .title {
+	font-weight: 600;
+	font-size: 26px;
+	color: #333333;
+	text-align: center;
+	margin: 0 5px 10px 5px;
+	border-bottom: 1px solid #888888;
+}
+
+.userEvents ul {
+	font-size: 20px;
+	list-style-type: none;
+	padding: 0;
+	display: block;
+	margin: 0;
+}
+
+.userEvents .userEvent {
+	padding-left: 5px;
+}
+
+.userEvents .likes {
+	background: #333333;
+	color: white;
+	padding: 2px 5px;
+}
+.userEvents li:hover .likes {
+	background: #444444;
+}
+
+.userEvents li:hover {
+	cursor: pointer;
+}
+
+.userEvents .userLikeButton {
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+.userEvents .userLikeButton:hover {
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+
+.userEvents input {
+	margin: 5px;
+	width: 100%;
+}
+
+.userEvents button {
+	background: #333333;
+	padding: 2px 5px;
+}
+.userEvents button:hover {
+	background: #444444;
+}
+.userEvents button:active {
+	background: #333333;
+}
+
+.userEvents button .addUserEventImg {
+	height: 50px;
+	padding: 5px;
+	filter: invert(100%);
+}

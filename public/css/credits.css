@@ -1,0 +1,33 @@
+#credsContainer {
+	position: fixed;
+	bottom: 1vh;
+	left: 1vh;
+	z-index: 15;
+}
+
+.credsImg {
+	height: 25px;
+	width: 25px;
+}
+
+.credsImg:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#personalCreds {
+	position: absolute;
+	bottom: 0;
+	left: 100%;
+	padding: 10px;
+	margin: 5px;
+	width: 200px;
+	background: rgba(255,255,255,0.8);
+	color: #333;
+	font-weight: 600;
+	transition: 0.2s;
+}
+
+.hideCreds {
+	display: none;
+}

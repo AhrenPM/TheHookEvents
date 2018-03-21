@@ -1,0 +1,136 @@
+h1 {
+	border-left: 45px solid #333333;
+	padding: 14px 16px;
+	margin: 0 0 35px 0;
+	font-weight: 600;
+}
+
+label {
+	border-left: 10px solid #333333;
+	padding: 8px 10px;
+	margin: 5px 0 0 0;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+#loginContainer {
+	position: absolute;
+	left: 50%;
+	top: 25%;
+	width: 400px;
+	transform: translateX(-50%);
+	color: #333333;
+	border-left: 25px solid #ff7900;
+	transition: transform 0.6s ease-in-out;
+}
+
+input.submit {
+	color: white;
+	background: #333333;
+	font-size: 25px;
+	font-weight: 600;
+	padding: 20px 25px 20px 100px;
+	margin: 15px 0 0 0;
+	border: none;
+}
+
+.background {
+	position: absolute;
+	height: 100%;
+	min-height: 800px;
+	width: 100%;
+	background: white;
+	overflow: hidden;
+}
+
+.sectionPicture {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	height:100%;
+	opacity: 0.5;
+}
+
+.signUp {
+	border-left: 10px solid #333333;
+	padding: 4px 10px;
+	margin: 5px 0 0 0;
+	text-decoration: underline;
+	font-size: 12px;
+	font-weight: 600;
+}
+.signUp a {
+	color: #333333;
+}
+.signUp a:hover {
+	color: #777777;
+}
+
+.forgotPass {
+	padding: 4px 10px;
+	margin-top: 5px;
+	text-decoration: underline;
+	font-size: 10px;
+	font-weight: 600;
+	line-height: 1;
+}
+.forgotPass a {
+	color: #333333;
+}
+.forgotPass a:hover {
+	color: #777777;
+}
+
+#signUpContainer {
+	position: absolute;
+	left: 150%;
+	top: 10%;
+	transform: translateX(0%);
+	width: 400px;
+	color: #333333;
+	border-left: 25px solid #ff7900;
+	transition: transform 0.6s ease-in-out;
+}
+
+#signUpContainer .warning {
+	font-size: 10px;
+}
+
+.screen {
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+
+/*Errors Box*/
+
+#errorsBox {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	max-height: 100px;
+	overflow: hidden;
+}
+
+.error {
+	color: red;
+	font-weight: 600;
+}
+
+.messageBox {
+	position: fixed;
+	left: 50%;
+	top: 35%;
+	transform: translateX(-50%);
+	padding: 20px 30px;
+	background: #333;
+	color: white;
+}
+
+.warning {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}

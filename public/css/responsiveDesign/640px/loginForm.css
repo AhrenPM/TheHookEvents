@@ -1,0 +1,37 @@
+@media only screen and ( max-width: 640px ) {
+	h1 {
+		border-left: 30px solid #333333;
+		padding: 10px;
+		margin: 0 0 20px;
+		font-size: 20px;
+	}
+
+	label {
+		border-left: 6px solid #333333;
+		padding: 6px 8px;
+		margin: 5px 0 0 0;
+		font-size: 15px;
+		font-weight: 600;
+	}
+
+	.screen {
+		overflow-y: visible;
+	}
+
+	input.submit {
+		font-size: 20px;
+		padding: 15px 20px 15px 80px;
+		margin: 10px 0 0 0;
+		border-radius: 0px;
+	}
+
+	#loginContainer {
+		width: 300px;
+		border-left: 20px solid #ff7900;
+	}
+
+	#signUpContainer {
+		width: 325px;
+		border-left: 20px solid #ff7900;
+	}
+}

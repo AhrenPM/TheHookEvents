@@ -1,0 +1,24 @@
+.resourceForm {
+	background: #999;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.resourceForm input {
+	margin-right: 10px;
+}
+
+.resourceForm input.url {
+	width: 25%;
+}
+
+label.smallText {
+	font-size: 10px;
+}
+
+.resourceForm label .showFileIn {
+	color: white;
+}
+.resourceForm label .showUrlIn {
+	color: white;
+}

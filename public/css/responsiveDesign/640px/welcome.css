@@ -1,0 +1,15 @@
+@media only screen and (max-width:640px) {
+	.welcomeColumn {
+		height: 35vh;
+	}
+
+	.signUpDescription {
+		display: none;
+	}
+
+	.signUpBox {
+		top: 50%;
+		transform: translate3d(-50%, -50%, 0);
+		width: 80%;
+	}
+}

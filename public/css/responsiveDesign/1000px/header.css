@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1000px) {
+	.headerContainer {
+		padding: 0 10px;
+		height: 40px;
+	}
+
+	.headerLogo {
+		height: 40px;
+	}
+
+	#dropdownList {
+		display: none;
+	}
+
+	.headerList {
+		display: none;
+		position: absolute;
+		left: 50%;
+		top: 50px;
+		transform: translateX(-50%);
+		width: 90%;
+		max-width: 250px;
+		background: rgba(50,50,50,0.7);
+		padding: 20px 10px;
+	}
+	.headerList li {
+		float: left;
+	}
+
+	.headerItem {
+		line-height: 45px;
+		padding: 5px 15px;
+		font-size: 20px;
+	}
+
+	.dropdown {
+		display: block;
+		float: right;
+		padding: 0 10px;
+		background: none;
+		border: none;
+		outline: none;
+		height: inherit;
+		width: 50px;
+	}
+	.dropdown:hover{
+		background: #ffa04d;
+	}
+	.dropdownConatain{
+		margin: 5px;
+	}
+	.dropdownLine{
+		background: white;
+		padding: 2px;
+		margin: 2px 0px;
+		border-radius: 2px;
+	}
+
+	.mcMasterPrompt {
+		font-size: 12px;
+		line-height: 30px;
+		margin-top: 5px;
+	}
+}
